@@ -1,5 +1,4 @@
 <?php
-require('../vendor/autoload.php');
 if(isset($_POST['url'])){
     $arrContextOptions=array(
         "ssl"=>array(
