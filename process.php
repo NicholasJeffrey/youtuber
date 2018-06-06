@@ -6,7 +6,7 @@ if(isset($_POST['url'])){
             "verify_peer_name"=>false,
         ),
     );
-    $youtube_key = 'AIzaSyA7dxlViSTWdJGzgq-EhRcdiRKTU-FS2xA';
+    $youtube_key = '';
     $url = $_POST['url'];
     if (strpos($url,'/channel/') == true) {
         $pos = strrpos($url, '/');
